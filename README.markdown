@@ -13,10 +13,12 @@ Requirements
 You need to install the following three libraries to be able to compile the
 encoders:
 
-1. libsndfile
+### libsndfile
+
     sudo apt-get install libsndfile-dev
 
-2. libspandsp: from within the FreeSWITCH directory run the following commands:
+### libspandsp
+From within the FreeSWITCH directory run the following commands:
 
     ./bootstrap.sh
     cd libs/spandsp
@@ -25,7 +27,8 @@ encoders:
     sudo make install
     sudo ldconfig
 
-3. libg722_1: after running the previous commands and going back to the FreeSWITCH directory run:
+### libg722_1
+After running the previous commands and going back to the FreeSWITCH directory run:
 
     cd libs/libg722_1
     ./configure
