@@ -11,7 +11,7 @@
 #define IBUFLEN (OBUFLEN / SAMPLE_SIZE)
 
 
-void usage(int argc, char *argv[])
+static void usage(int argc, char *argv[])
 {
     printf("%s <WAV file> <G7221 file>\n\n"
            "Encode a 16 bit Linear PCM, 16 kHz, mono WAV file into a raw G722.1 file\n", argv[0]);
