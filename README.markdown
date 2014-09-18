@@ -13,9 +13,9 @@ Requirements
 You need to install the following three libraries to be able to compile the
 encoders:
 
-### libsndfile
+### libsndfile and libtiff
 
-    sudo apt-get install libsndfile-dev
+    sudo apt-get install libsndfile-dev libtiff-dev
 
 ### libspandsp
 From within the FreeSWITCH directory run the following commands:
