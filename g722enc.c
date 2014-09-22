@@ -54,10 +54,10 @@ int main(int argc, char *argv[])
         goto output_open_error;
     }
 
-    state = g722_encode_init(NULL, 64000, 0);
+    state = g722_encode_init(NULL, 64000, G722_PACKED);
 
     while (1) {
-        int rcount, ocount;
+        sf_count_t rcount, ocount;
 
         rcount = sf_read_short(isfp, ibuf, IBUFLEN);
 
